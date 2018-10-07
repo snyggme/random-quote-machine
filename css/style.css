@@ -1,0 +1,100 @@
+﻿body {
+  margin: 0px;
+  font-family: Raleway;
+  color: #191901;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 60px;
+  margin: 0;
+  font-size: 45px;
+  color: white;
+}
+
+.background {
+   height: 100vh;
+}
+  
+.backgrnd-1 {
+  height: 330px;
+  background-color: #ad3a4b;
+}
+
+.backgrnd-2 {
+  height: 100%;
+  background-color: #cdd1d6;
+}
+
+.container {
+  position: absolute;
+  width: 600px;
+  top: 230px; 
+  left: 34%;
+  font-size: 25px;
+}
+
+.inner {
+  position: relative;
+  background-color: white;
+  padding: 10px 40px;
+  box-shadow: 0px 0px 3px 0 #191901;
+}
+
+#quote-content {
+  min-height: 80px;
+}
+
+#quote-title {
+/*   text-align: right; */
+  float: right;
+  padding-bottom: 20px;
+  color: #ad3a4b;
+}
+
+#get-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+  width: 250px;
+  height: 60px;
+  background-color: white;
+  border-bottom: 4px solid grey;
+  border-right: 4px solid grey;
+} 
+
+.get-quote-href {
+  text-decoration: none;
+}
+
+.get-quote-href:active {
+  color: #191901;
+}
+
+.get-quote-href:visited {
+  color: #191901;
+}
+
+.left-quote {
+  position: absolute;
+  top: -20px;
+  left: -50px;
+}
+
+.right-quote {
+  position: absolute;
+  bottom: 50px;
+  right: -50px;
+}
+
+.fa-twitter {
+  padding-left: 20px;
+  color : #ad3a4b;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
